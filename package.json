@@ -1,0 +1,25 @@
+{
+  "name": "kpzonline.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpzonline/kpzonline.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpzonline/kpzonline.github.io/issues"
+  },
+  "homepage": "https://github.com/kpzonline/kpzonline.github.io#readme",
+  "devDependencies": {
+    "http-serve": "^1.0.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}

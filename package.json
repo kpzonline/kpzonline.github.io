@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss styles.css -o output.css"
+    "build": "postcss styles.css -o output.css",
+    "serve": "http-server -p 8080 -a 0.0.0.0 --cors . "
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,7 @@
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }
